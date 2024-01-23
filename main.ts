@@ -1,4 +1,4 @@
-import { publicIp, publicIpv4, publicIpv6 } from 'node:public-ip@6.0.1';
+import { publicIp, publicIpv4, publicIpv6 } from 'npm:public-ip@6.0.1';
 Deno.serve(async (req: Request) => new Response(
 
 
